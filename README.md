@@ -19,3 +19,6 @@ pip install -r requirments.txt
  1- python migrate.py db init
  2- python migrate.py db migrate 
  3- python migrate.py db upgrade 
+
+ # Executer 
+ python run.py
