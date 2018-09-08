@@ -10,4 +10,12 @@ source env/bin/activate
 pip install -r requirments.txt
 
 
+# Créer une base de donnée Mysql :immo_db
+1-créer une base de donnée imm_db dans le bash Mysql:
+2-Changer username et password dans config.py
+ (SQLALCHEMY_DATABASE_URI = "mysql://{username}:{password}@localhost/immo_db"    exemple: "mysql://root:@localhost/immo_db")
 
+ # Migrer les données
+ 1- python migrate.py db init
+ 2- python migrate.py db migrate 
+ 3- python migrate.py db upgrade 
