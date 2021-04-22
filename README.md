@@ -24,8 +24,9 @@ pip install -r requirments.txt
 2-Changer username et password dans config.py<br>
 
 ```
-SQLALCHEMY_DATABASE_URI = "mysql://{username}:{password}@localhost/immo_db"    exemple: "mysql://root:@localhost/immo_db")
+SQLALCHEMY_DATABASE_URI = "mysql://{username}:{password}@localhost/immo_db"    
 ```
+exemple: "mysql://root:@localhost/immo_db"
 
  # Migrer les données
 ```
