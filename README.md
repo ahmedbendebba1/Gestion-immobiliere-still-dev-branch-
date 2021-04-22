@@ -45,15 +45,15 @@ SQLALCHEMY_DATABASE_URI = "mysql://{username}:{password}@localhost/immo_db"    e
 http://127.0.0.1:5000/api/bienimmobiliers/{id_immobilière} 
 ```
 ```
-Body :  {
-            "nom" : "string",
-            "description" : "string",
-            "pieces" : int,
-            "caracteristiques" : "string",
-            "type_immo" : "string",
-            "ville" :"string",
-            "id_utilisateur" : "string"
-        }      
+Body:{
+      "nom" : "string",
+      "description" : "string",
+      "pieces" : int,
+      "caracteristiques" : "string",
+      "type_immo" : "string",
+      "ville" :"string",
+      "id_utilisateur" : "string"
+     }      
 ```
 *****
         
@@ -66,12 +66,12 @@ http://127.0.0.1:5000/api/utilisateurs
 http://127.0.0.1:5000/api/utilisateurs/{id_utilisateurs} 
 ```
 ```
-Body:    {
-            "date_de_naissance": "1994-09-12T00:00:00",
-            "id_utilisateur": "string",
-            "nom": "string",
-            "prenom": "string"
-        }
+Body:{
+     "date_de_naissance": "1994-09-12T00:00:00",
+     "id_utilisateur": "string",
+     "nom": "string",
+     "prenom": "string"
+     }
 ```
 *****
         
